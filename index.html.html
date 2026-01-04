@@ -1,0 +1,85 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Mini Project</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #607c98;
+      margin: 0;
+      text-align: center;
+    }
+
+    header {
+      background: #395175;
+      color: white;
+      padding: 20px;
+    }
+
+    nav button {
+      margin: 5px;
+      padding: 10px 18px;
+      border: none;
+      background: white;
+      color: #0d6efd;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    nav button:hover {
+      background: #dbe7ff;
+    }
+
+    #content {
+      background: white;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .chapter-btn {
+      background: #198754;
+      color: white;
+      padding: 10px 15px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .chapter-btn:hover {
+      background: #146c43;
+    }
+
+    pre {
+      background: #f1f1f1;
+      padding: 10px;
+      text-align: left;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>JavaScript Mini Project</h1>
+  <nav>
+    <button onclick="home()">Home</button>
+    <button onclick="about()">About</button>
+    <button onclick="chapters()">Chapters</button>
+  </nav>
+</header>
+
+<div id="content"></div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
